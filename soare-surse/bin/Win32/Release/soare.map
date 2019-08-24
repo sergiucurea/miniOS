@@ -1,0 +1,65 @@
+ soare
+
+ Timestamp is 5d5dd230 (Thu Aug 22 02:22:24 2019)
+
+ Preferred load address is 00200000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000fc60H .text                   CODE
+ 0001:0000fc60 00000088H .text$mn                CODE
+ 0002:00000000 000000a0H .rdata                  DATA
+ 0002:000000a0 000000d4H .rdata$zzzdbg           DATA
+ 0003:00000000 00000004H .data                   DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___volatile_metadata       00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0001:00000000       gMultiBootHeader           00200400     __init.obj
+ 0001:00000030       gMultiBootStruct           00200430     __init.obj
+ 0001:0000fc54       ___cli                     00210054     __init.obj
+ 0001:0000fc56       ___sti                     00210056     __init.obj
+ 0001:0000fc58       ___magic                   00210058     __init.obj
+ 0001:0000fc60       _EntryPoint                00210060 f   main.obj
+ 0002:00000000       ??_C@_0CH@BBABIFDJ@Hello?5Boot?$CB?5Greetings?5from?5Serg@ 00210400     screen.obj
+
+ entry point at        0001:0000fc60
+
+ Static symbols
+
+ 0001:00000000       gMultiBootHeader.magic     00200400     __init.obj
+ 0001:00000004       gMultiBootHeader.flags     00200404     __init.obj
+ 0001:00000008       gMultiBootHeader.checksum  00200408     __init.obj
+ 0001:0000000c       gMultiBootHeader.header_addr 0020040c     __init.obj
+ 0001:00000010       gMultiBootHeader.load_addr 00200410     __init.obj
+ 0001:00000014       gMultiBootHeader.load_end_addr 00200414     __init.obj
+ 0001:00000018       gMultiBootHeader.bss_end_addr 00200418     __init.obj
+ 0001:0000001c       gMultiBootHeader.entry_addr 0020041c     __init.obj
+ 0001:00000020       gMultiBootHeader.mode_type 00200420     __init.obj
+ 0001:00000024       gMultiBootHeader.width     00200424     __init.obj
+ 0001:00000028       gMultiBootHeader.height    00200428     __init.obj
+ 0001:0000002c       gMultiBootHeader.depth     0020042c     __init.obj
+ 0001:0000fc00       gMultiBootEntryPoint       00210000     __init.obj
+ 0001:0000fc54       __cli                      00210054     __init.obj
+ 0001:0000fc56       __sti                      00210056     __init.obj
+ 0001:0000fc58       __magic                    00210058     __init.obj
+ 0003:00000000       _gVideo                    00210800     screen.obj
+
+ Exports
+
+  ordinal    name
+

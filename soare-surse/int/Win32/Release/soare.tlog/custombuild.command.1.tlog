@@ -1,0 +1,2 @@
+^D:\MASTER\PSNA-SEBY\MULTIBOOT\SOARE-SURSE\SOARE\__INIT.ASM
+nasm -o "D:\master\PSNA-SEBY\MultiBoot\soare-surse\int\Win32\Release\__init.obj" -f win32 "D:\master\PSNA-SEBY\MultiBoot\soare-surse\soare\__init.asm"

@@ -1,0 +1,4 @@
+﻿  soare.vcxproj -> D:\master\PSNA-SEBY\MultiBoot\soare-surse\bin\Win32\Release\soare.bin
+  POSTBUILD: will insert "D:\master\PSNA-SEBY\MultiBoot\soare-surse\bin\Win32\Release\soare.bin" into SOARE2-FLAT.VMDK...
+  IMPORTANT: if the Disk is running under VMWARE, you MUST stop it to succeed!
+          1 file(s) copied.

@@ -169,6 +169,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <AdditionalIncludeDirectories>c:\Program Files (x86)\Windows Kits\8.1\include</AdditionalIncludeDirectories>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CallingConvention>Cdecl</CallingConvention>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -224,9 +225,13 @@
   <ItemGroup>
     <ClInclude Include="boot.h" />
     <ClInclude Include="defs.h" />
+    <ClInclude Include="descriptor_tables.h" />
+    <ClInclude Include="isr.h" />
     <ClInclude Include="screen.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="descriptor_tables.c" />
+    <ClCompile Include="isr.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="screen.c" />
   </ItemGroup>

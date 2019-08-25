@@ -2,10 +2,11 @@
 #define _SCREEN_H_
 
 #include "boot.h"
+#include <stdint.h>
 
-#define MAX_LINES       25
+#define MAX_LINES       80
 #define MAX_COLUMNS     80
-#define MAX_OFFSET      2000 //25 lines * 80 chars
+#define MAX_OFFSET      6400 //80 lines * 80 chars
 
 
 #pragma pack(push)
@@ -18,6 +19,9 @@ typedef struct _SCREEN
 #pragma pack(pop)
 
 void HelloBoot();
+void monitor_write(char *string);
+void monitor_write_pos(char* string);
+void monitor_write_dec(uint32_t n);
 
 void SetColor(BYTE Color);
 void ClearScreen();

@@ -5,7 +5,7 @@ static PSCREEN gVideo = (PSCREEN)(0x000B8000);
 void HelloBoot()
 {
     int i, len;
-	char boot[] = "Hello Boot! Greetings from Sergiu's OS";
+	char boot[] = "Hello WORLD!";
 
 	len = 0;
 	while (boot[len] != 0)

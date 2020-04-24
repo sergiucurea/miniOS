@@ -1,0 +1,26 @@
+﻿  Performing Custom Build Tools
+  D:\MiniOS\MiniOS\kernel\__init.asm:189: warning: symbol `ASMEntryPoint': GLOBAL directive after symbol definition is an experimental feature
+  D:\MiniOS\MiniOS\kernel\__init.asm:25: ... from macro `EXPORT2C' defined here
+  D:\MiniOS\MiniOS\kernel\__init.asm:189: warning: symbol `__cli': GLOBAL directive after symbol definition is an experimental feature
+  D:\MiniOS\MiniOS\kernel\__init.asm:25: ... from macro `EXPORT2C' defined here
+  D:\MiniOS\MiniOS\kernel\__init.asm:189: warning: symbol `__sti': GLOBAL directive after symbol definition is an experimental feature
+  D:\MiniOS\MiniOS\kernel\__init.asm:25: ... from macro `EXPORT2C' defined here
+  D:\MiniOS\MiniOS\kernel\__init.asm:189: warning: symbol `__magic': GLOBAL directive after symbol definition is an experimental feature
+  D:\MiniOS\MiniOS\kernel\__init.asm:25: ... from macro `EXPORT2C' defined here
+  D:\MiniOS\MiniOS\kernel\__init.asm:189: warning: symbol `__enableSSE': GLOBAL directive after symbol definition is an experimental feature
+  D:\MiniOS\MiniOS\kernel\__init.asm:25: ... from macro `EXPORT2C' defined here
+  D:\MiniOS\MiniOS\kernel\__init.asm:189: warning: symbol `__isr14': GLOBAL directive after symbol definition is an experimental feature
+  D:\MiniOS\MiniOS\kernel\__init.asm:25: ... from macro `EXPORT2C' defined here
+  D:\MiniOS\MiniOS\kernel\__init.asm:189: warning: symbol `__load_idt': GLOBAL directive after symbol definition is an experimental feature
+  D:\MiniOS\MiniOS\kernel\__init.asm:25: ... from macro `EXPORT2C' defined here
+  D:\MiniOS\MiniOS\kernel\__init.asm:189: warning: symbol `__myfunc': GLOBAL directive after symbol definition is an experimental feature
+  D:\MiniOS\MiniOS\kernel\__init.asm:25: ... from macro `EXPORT2C' defined here
+  idt.c
+D:\MiniOS\MiniOS\kernel\idt.c(49,26): warning C4311:  'type cast': pointer truncation from 'idtEntry (*)[256]' to 'DWORD'
+  logging.c
+  main.c
+  picMapping.c
+  screen.c
+  Generating Code...
+D:\MiniOS\MiniOS\kernel\idt.c(51,31): warning C4311:  'type cast': pointer truncation from 'void (__cdecl *)()' to 'DWORD'
+LINK : fatal error LNK1561: entry point must be defined

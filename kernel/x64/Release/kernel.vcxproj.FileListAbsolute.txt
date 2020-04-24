@@ -1,0 +1,1 @@
+D:\projects\miniOS\kernel\x64\Release\kernel.exe

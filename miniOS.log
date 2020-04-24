@@ -1,0 +1,8 @@
+Logging initialized!
+Message printed to screen.
+PIC Mapped
+IDT initialized
+Trying to generate a page fault
+Page Fault interrupted started
+Page Fault interrupted ended
+Stoped trying to generate a page fault 
